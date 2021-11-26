@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background: linear-gradient(45deg, #8A2387, #F27121) fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box {
+    display: block;
+    text-align: center;
+    margin: 10% 25% 10% 25%;
+    background-color: #FFFFFF;
+    line-height: 1.5em;
+    border-radius: 15px;
+    padding: 4%;
+}
+
+.box > img {
+    width: 50%;
+}
+
+.input-box {
+    padding: 2%;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #234959;
+    color: #FFFFFF;
+    margin-bottom: 2%;
+}
+
+.input-box::placeholder {
+    color: #FFFFFF;
+}
+
+.button {
+    padding: 2% 15% 2% 15%;
+    border-radius: 10px;
+    background-color: #69E07C;
+}
